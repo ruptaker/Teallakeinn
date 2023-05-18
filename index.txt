@@ -1,307 +1,965 @@
-Homeverse - Find your dream house
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Western Independence - Teal Lake Inn</title>
 
-# HEADER
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
 
-<ion-icon name="mail-outline"></ion-icon>
-info@homeverse.com
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
 
-<ion-icon name="location-outline"></ion-icon>
-15/A, Nest Tower, NYC
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;600;700&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+</head>
 
-<ion-icon name="logo-facebook"></ion-icon>
-<ion-icon name="logo-twitter"></ion-icon>
-<ion-icon name="logo-instagram"></ion-icon>
-<ion-icon name="logo-pinterest"></ion-icon>
+<body>
 
-Add Listing
+  <!-- 
+    - #HEADER
+  -->
 
-alt = Homeverse logo
+  <header class="header" data-header>
 
-aria-label = Close Menu
-<ion-icon name="close-outline"></ion-icon>
+    <div class="overlay" data-overlay></div>
 
-Home
-About
-Service
-Property
-Blog
-Contact
+    <div class="header-top">
+      <div class="container">
 
-aria-label = Search
-<ion-icon name="search-outline"></ion-icon>
-Search
+        <ul class="header-top-list">
 
-aria-label = Profile
-<ion-icon name="person-outline"></ion-icon>
-Profile
+          <li>
+            <a href="mailto:info@homeverse.com" class="header-top-link">
+              <ion-icon name="mail-outline"></ion-icon>
 
-aria-label = Cart
-<ion-icon name="cart-outline"></ion-icon>
-Cart
+              <span>frontdesk@teallakeinn.com</span>
+            </a>
+          </li>
 
-aria-label = Open Menu
-<ion-icon name="menu-outline"></ion-icon>
-Menu
+          <li>
+            <a href="https://goo.gl/maps/NhQTV3CLP7aKH5TAA" target="blank" class="header-top-link">
+              <ion-icon name="location-outline"></ion-icon>
 
+              <address>3602 S Claark St, Mexico , MO </address>
+            </a>
+          </li>
 
+        </ul>
 
-# HERO
+        <div class="wrapper">
+          <ul class="header-top-social-list">
 
-<ion-icon name="home"></ion-icon>
-Real Estate Agency
+            <li>
+              <a href="https://www.facebook.com/BWTealLakeInnMexico/" target="blank" class="header-top-social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
 
-Find Your Dream House By Us
+            <li>
+              <a href="https://twitter.com/bestwestern?lang=en" target="blank" class="header-top-social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore.
+            <li>
+              <a href="https://www.instagram.com/bestwestern/?hl=en" target="blank" class="header-top-social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
 
-Make An Enquiry
+         
 
-alt = Modern house model
+          </ul>
+        </div>
 
+      </div>
+    </div>
 
+    <div class="header-bottom">
+      <div class="container">
 
-# ABOUT
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.png" alt="Best Western ">
+        </a>
 
-alt = House interior
+        <nav class="navbar" data-navbar>
 
-About Us
+          <div class="navbar-top">
 
-The Leading Real Estate Rental Marketplace.
+            <a href="#" class="logo">
+              <img src="./assets/images/logo.png" alt="Homeverse logo">
+            </a>
 
-Over 39,000 people work for us in more than 70 countries all over the This breadth of global coverage, combined with specialist services
+            <button class="nav-close-btn" data-nav-close-btn aria-label="Close Menu">
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
 
-<ion-icon name="home-outline"></ion-icon>
-Smart Home Design
+          </div>
 
-<ion-icon name="leaf-outline"></ion-icon>
-Beautiful Scene Around
+          <div class="navbar-bottom">
+            <ul class="navbar-list">
 
-<ion-icon name="wine-outline"></ion-icon>
-Exceptional Lifestyle
+              <li>
+                <a href="#home" class="navbar-link" data-nav-link>Home</a>
+              </li>
 
-<ion-icon name="shield-checkmark-outline"></ion-icon>
-Complete 24/7 Security
+              <li>
+                <a href="#about" class="navbar-link" data-nav-link>About</a>
+              </li>
 
-"Enimad minim veniam quis nostrud exercitation
-llamco laboris. Lorem ipsum dolor sit amet"
+              <li>
+                <a href="#footer" class="navbar-link" data-nav-link>Contact</a>
+              </li>
 
-Our Services
+            </ul>
+          </div>
 
+        </nav>
 
+        <div class="header-bottom-actions">
 
-#SERVICE
+         
+          
+          <button class="btn" ><a href="https://www.bestwestern.com/en_US/book/hotels-in-mexico/best-western-teal-lake-inn/propertyCode.26165.html" target="blank" >Booking</a></button>
+          <button class="header-bottom-actions-btn" data-nav-open-btn aria-label="Open Menu">
+            <ion-icon name="menu-outline"></ion-icon>
 
-Our Services
+            <span>Menu</span>
+          </button>
 
-Our Main Focus
+        </div>
 
-alt = Service icon
+      </div>
+    </div>
 
-Buy a home
+  </header>
 
-over 1 million+ homes for sale available on the website, we can match you with a house you will want to call home.
 
-Find A Home
-<ion-icon name="arrow-forward-outline"></ion-icon>
 
-Rent a home
 
-Sell a home
 
+  <main>
+    <article>
 
+      <!-- 
+        - #HERO
+      -->
 
-#PROPERTY
+      <section class="hero" id="home">
+        <div class="container">
 
-Properties
+          <div class="hero-content">
 
-Featured Listings
+            <p class="hero-subtitle">
+              <ion-icon name="home"></ion-icon><Span>Best Western Teal Lake Inn</Span>
 
-alt = New Apartment Nice View
+              
+            </p>
 
-For Rent
+            <h2 class="h1 hero-title">Your home away from home.</h2>
 
-<ion-icon name="location"></ion-icon>
-Belmont Gardens, Chicago
+            <p class="hero-text">
+              Best Western® Hotels & Resorts offers a global network of hotels in nearly 100† countries and territories worldwide.
+            </p>
 
-<ion-icon name="camera"></ion-icon>
-4
+            <button class="btn" ><a href="https://www.bestwestern.com/en_US/book/hotels-in-mexico/best-western-teal-lake-inn/propertyCode.26165.html" target="blank" >Book Reservation</a></button>
+          </div>
 
-<ion-icon name="film"></ion-icon>
-2
+          <figure class="hero-banner">
+            <img src="./assets/images/hero-banner.png" alt="Modern house model" class="w-100">
+          </figure>
 
-$34,900/Month
+        </div>
+      </section>
 
-New Apartment Nice View
 
-Beautiful Huge 1 Family House In Heart Of Westbury. Newly Renovated With New Wood
 
-3
-<ion-icon name="bed-outline"></ion-icon>
-Bedrooms
 
-2
-<ion-icon name="man-outline"></ion-icon>
-Bathrooms
 
-3450
-<ion-icon name="square-outline"></ion-icon>
-Square Ft
+      <!-- 
+        - #ABOUT
+      -->
 
-William Seklo
-Estate Agents
+      <section class="about" id="about">
+        <div class="container">
 
-<ion-icon name="resize-outline"></ion-icon>
-<ion-icon name="heart-outline"></ion-icon>
-<ion-icon name="add-circle-outline"></ion-icon>
+          <figure class="about-banner">
+            <img src="./assets/images/about-banner-1.jpg" alt="House interior">
 
+            <img src="./assets/images/about-banner-2.jpg" alt="House interior" class="abs-img">
+          </figure>
 
-For Sales
+          <div class="about-content">
 
-alt = Modern Apartments
-Modern Apartments
+            <p class="section-subtitle">About Us</p>
 
-alt = Comfortable Apartment
-Comfortable Apartment
+            <h2 class="h2 section-title">Best Western Teal Lake Inn</h2>
 
-alt = Luxury villa in Rego Park
-Luxury villa in Rego Park
+            <p class="about-text">
+              Located in Mexico,MO, the Best Western Teal Lake Inn is sure to provide a peaceful and comforting 
+              home away from home for any traveler. Each Best Western hotel provides free internet access, 
+              giving guests the opportunity to check emails and surf the web, all from the comforts of their room or the business center.
+            </p>
 
+            <ul class="about-list">
 
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="paw-outline"></ion-icon>
+                </div>
 
-# FEATURES
+                <p class="about-item-text">Pet Friendly</p>
+              </li>
 
-Our Aminities
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="cafe-outline"></ion-icon>
+                </div>
 
-Building Aminities
+                <p class="about-item-text">Free breakfast</p>
+              </li>
 
-<ion-icon name="car-sport-outline"></ion-icon>
-Parking Space
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="car-sport-outline"></ion-icon>
+                </div>
 
-<ion-icon name="arrow-forward-outline"></ion-icon>
+                <p class="about-item-text">Free parking</p>
+              </li>
 
-<ion-icon name="water-outline"></ion-icon>
-Swimming Pool
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="wifi-outline"></ion-icon>
+                </div>
 
-<ion-icon name="shield-checkmark-outline"></ion-icon>
-Private Security
+                <p class="about-item-text">Free High Speed Internet (WiFi)</p>
+              </li>
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="business-outline"></ion-icon>
+                </div>
 
-<ion-icon name="fitness-outline"></ion-icon>
-Medical Center
+                <p class="about-item-text">Business Center with Internet Access</p>
+              </li>
+              <li class="about-item">
+                <div class="about-item-icon">
+                  <ion-icon name="fitness-outline"></ion-icon>
+                </div>
 
-<ion-icon name="library-outline"></ion-icon>
-Library Area
+                <p class="about-item-text">Fitness Center with Gym / Workout Room</p>
+              </li>
+              <li class="about-item">
+              <div class="about-item-icon">
+                <ion-icon name="person-add-outline"></ion-icon>
+              </div>
 
-<ion-icon name="bed-outline"></ion-icon>
-King Size Beds
+              <p class="about-item-text">24-hour front desk</p>
+            </li>
+            <li class="about-item">
+            <div class="about-item-icon">
+              <ion-icon name="logo-no-smoking"></ion-icon>
+            </div>
 
-<ion-icon name="home-outline"></ion-icon>
-Smart Homes
+            <p class="about-item-text">Non-smoking Hotel</p>
+          </li>
 
-<ion-icon name="football-outline"></ion-icon>
-Kid’s Playland
+            </ul>
 
+            <p class="callout">
+              "Our superior customer service will ensure that we meet all your needs and go beyond your expectations."
+            </p>
 
+    
 
-# BLOG
+          </div>
 
-News & Blogs
+        </div>
+      </section>
 
-Leatest News Feeds
 
-alt = The Most Inspiring Interior Design Of 2021
 
-<ion-icon name="person"></ion-icon>
-by: Admin
 
-<ion-icon name="pricetags"></ion-icon>
-Interior
 
-The Most Inspiring Interior Design Of 2021
 
-<ion-icon name="calendar"></ion-icon>
-Apr 27, 2022
 
-Read More
 
 
-alt = Recent Commercial Real Estate Transactions
+      <!-- 
+        - #PROPERTY
+      -->
 
-Estate
+      <section class="property" id="property">
+        <div class="container">
 
-Recent Commercial Real Estate Transactions
+          <p class="section-subtitle">Rooms</p>
 
+          <h2 class="h2 section-title">Choose your Room</h2>
 
-alt = Renovating a Living Room? Experts Share Their Secrets
+          <ul class="property-list has-scrollbar">
 
-Room
+            <li>
+              <div class="property-card">
 
-Renovating a Living Room? Experts Share Their Secrets
+                <figure class="card-banner">
 
+                  <a href="#">
+                    <img src="./assets/images/KNS.jpg" alt="King Non Smoking" class="w-100">
+                  </a>
 
+                  <div class="card-badge green">KNS</div>
 
-# CTA
+                
 
-Looking for a dream home?
+                </figure>
 
-We can help you realize your dream of a new home
+                <div class="card-content">
 
-Explore Properties
-<ion-icon name="arrow-forward-outline"></ion-icon>
+                  
 
+        
 
+                  <p class="card-text">
+                    Standard Room, 1 King Bed, Non Smoking, Microwave
+                  </p>
 
-# FOOTER
+                  <ul class="card-list">
 
-alt = Homeverse logo
+                    <li class="card-item">
+                      <strong>1</strong>
 
-Lorem Ipsum is simply dummy text of the and typesetting industry. Lorem Ipsum is dummy text of the printing.
+                      <ion-icon name="bed-outline"></ion-icon>
 
-<ion-icon name="location-outline"></ion-icon>
-Brooklyn, New York, United States
+                      <span>Bedrooms</span>
+                    </li>
 
-<ion-icon name="call-outline"></ion-icon>
-+0123-456789
+                    <li class="card-item">
+                      <strong>2</strong>
 
-<ion-icon name="mail-outline"></ion-icon>
-contact@homeverse.com
+                      <ion-icon name="people-outline"></ion-icon>
 
-<ion-icon name="logo-facebook"></ion-icon>
-<ion-icon name="logo-twitter"></ion-icon>
-<ion-icon name="logo-linkedin"></ion-icon>
-<ion-icon name="logo-youtube"></ion-icon>
+                      <span>Sleeps</span>
+                    </li>
 
-Company
+                    <li class="card-item">
+                      
 
-About
-Blog
-All Products
-Locations Map
-FAQ
-Contact us
+                      <ion-icon name="cafe-outline"></ion-icon>
 
-Services
+                      <span>Free breakfast</span>
+                    </li>
 
-Order tracking
-Wish List
-Login
-My account
-Terms & Conditions
-Promotional Offers
+                  </ul>
 
-Customer Care
+                </div>
 
-Login
-My account
-Wish List
-Order tracking
-FAQ
-Contact us
+                
 
-&copy; 2022 codewithsadee. All Rights Reserved
+               
 
+              </div>
+            </li>
 
 
-# GO TO TOP
+            <li>
+              <div class="property-card">
 
-<ion-icon name="chevron-up-outline"></ion-icon>
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/images/KXNS.jpg" alt="King Executive" class="w-100">
+                  </a>
+
+                  <div class="card-badge green">KXNS</div>
+
+                
+
+                </figure>
+
+                <div class="card-content">
+
+                  
+
+        
+
+                  <p class="card-text">
+                    Standard Room, 1 King Bed, Accessible, Bathtub
+                  </p>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <strong>1</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>2</strong>
+
+                      <ion-icon name="people-outline"></ion-icon>
+
+                      <span>Sleeps</span>
+                    </li>
+
+                    <li class="card-item">
+                      
+
+                      <ion-icon name="cafe-outline"></ion-icon>
+
+                      <span>Free breakfast</span>
+                    </li>
+                    <li class="card-item">
+                      
+
+                      <ion-icon name="logo-tux"></ion-icon>
+
+                      <span>Bathtub</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                
+
+               
+
+              </div>
+            </li>
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/images/KHNS.jpg" alt="King Handicapped" class="w-100">
+                  </a>
+
+                  <div class="card-badge green">KHNS</div>
+
+                
+
+                </figure>
+
+                <div class="card-content">
+
+                  
+
+        
+
+                  <p class="card-text">
+                    Standard Room, 1 King Bed, Accessible, Non Smoking
+                  </p>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <strong>1</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>2</strong>
+
+                      <ion-icon name="people-outline"></ion-icon>
+
+                      <span>Sleeps</span>
+                    </li>
+
+                    <li class="card-item">
+                      
+
+                      <ion-icon name="cafe-outline"></ion-icon>
+
+                      <span>Free breakfast</span>
+                    </li>
+                    <li class="card-item">
+                      
+
+                      <ion-icon name="accessibility-outline"></ion-icon>
+
+                      <span>Accessible</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                
+
+               
+
+              </div>
+            </li>
+
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/images/QQNS.jpg" alt="Double queen non smoking" class="w-100">
+                  </a>
+
+                  <div class="card-badge green">QQNS</div>
+
+                
+
+                </figure>
+
+                <div class="card-content">
+
+                  
+
+        
+
+                  <p class="card-text">
+                    Standard Room, 2 Queen Beds, Non Smoking, Refrigerator
+                  </p>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <strong>2</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span> Queen Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>4</strong>
+
+                      <ion-icon name="people-outline"></ion-icon>
+
+                      <span>Sleeps</span>
+                    </li>
+
+                    <li class="card-item">
+                      
+
+                      <ion-icon name="cafe-outline"></ion-icon>
+
+                      <span>Free breakfast</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                
+
+               
+
+              </div>
+            </li>
+
+            <li>
+              <div class="property-card">
+
+                <figure class="card-banner">
+
+                  <a href="#">
+                    <img src="./assets/images/QQX.jpg" alt="Double queen Executive" class="w-100">
+                  </a>
+
+                  <div class="card-badge green">QQXS</div>
+
+                
+
+                </figure>
+
+                <div class="card-content">
+
+                  
+
+        
+
+                  <p class="card-text">
+                    Suite, 2 Queen Beds, Non Smoking, Microwave (Larger Room;with Sofabed)
+                  </p>
+
+                  <ul class="card-list">
+
+                    <li class="card-item">
+                      <strong>2</strong>
+
+                      <ion-icon name="bed-outline"></ion-icon>
+
+                      <span>Bedrooms</span>
+                    </li>
+
+                    <li class="card-item">
+                      <strong>5</strong>
+
+                      <ion-icon name="people-outline"></ion-icon>
+
+                      <span>Sleeps</span>
+                    </li>
+
+                    <li class="card-item">
+                      
+
+                      <ion-icon name="cafe-outline"></ion-icon>
+
+                      <span>Free breakfast</span>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                
+
+               
+
+              </div>
+            </li>
+
+            
+
+           
+           
+
+          </ul>
+
+        </div>
+      </section>
+
+  
+      
+      
+
+      <section class="features">
+        <div class="container">
+
+    
+
+          <h2 class="h2 section-title">Room Aminities</h2>
+
+          <ul class="features-list">
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <ion-icon name="bed-outline"></ion-icon>
+                  
+                </div>
+
+                <h3 class="card-title">Bedroom</h3>
+                <p>Bedsheets provided, Blackout drapes, Rollaway/extra bed(surcharge)</p>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <ion-icon name="water-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">Bathroom</h3>
+                <p>Free Toiletries, Hair dryer, Private bathroom, Shower/bathtub combination</p>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <ion-icon name="tv-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">Entertainment </h3>
+                <p>TV with cable channels</p>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <ion-icon name="cafe-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">Food And Drink</h3>
+                <p>Coffee/tea maker,
+                  Microwave,
+                  Refrigerator</p>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <ion-icon name="library-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">Desk and chair</h3>
+                <p>Laptop workspace</p>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <ion-icon name="business-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">Business Services</h3>
+                <p>24-hour business center,
+                  Computer station</p>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <ion-icon name="home-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">Guest Services</h3>
+                <p>Daily housekeeping</p>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="features-card">
+
+                <div class="card-icon">
+                  <ion-icon name="wifi-outline"></ion-icon>
+                </div>
+
+                <h3 class="card-title">Internet </h3>
+                <p>Available in all rooms: Free WiFi,
+                  Available in some public areas: Free WiFi</p>
+
+                <div class="card-btn">
+                  <ion-icon name="arrow-forward-outline"></ion-icon>
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer" id="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.png" alt="Homeverse logo">
+          </a>
+
+          <p class="section-text">
+            Best Western Teal Lake Inn is located in Mexico.  
+            Spend some time exploring the area's activities, including golfing.
+          </p>
+
+          <ul class="contact-list">
+
+            <li>
+              <a href="https://goo.gl/maps/NhQTV3CLP7aKH5TAA" target="blank" class="contact-link">
+                <ion-icon name="location-outline"></ion-icon>
+
+                <address>3602 S Clark St, Mexico, MO 65265</address>
+              </a>
+            </li>
+
+            <li>
+              <a href="tel:+0123456789" class="contact-link">
+                <ion-icon name="call-outline"></ion-icon>
+
+                <span>1 (800) 568-8520</span>
+              </a>
+            </li>
+
+            <li>
+              <a href="mailto:contact@homeverse.com" class="contact-link">
+                <ion-icon name="mail-outline"></ion-icon>
+
+                <span>frontdesk@teallakeinn.com</span>
+              </a>
+            </li>
+
+          </ul>
+
+          <ul class="social-list">
+
+            <li>
+              <a href="https://www.facebook.com/BWTealLakeInnMexico/" target="blank" class="social-link">
+                <ion-icon name="logo-facebook"></ion-icon>
+              </a>
+            </li>
+
+            <li>
+              <a href="https://twitter.com/bestwestern?lang=en" target="blank" class="social-link">
+                <ion-icon name="logo-twitter"></ion-icon>
+              </a>
+            </li>
+
+          
+
+            <li>
+              <a href="https://www.instagram.com/bestwestern/?hl=en" target="blank" class="social-link">
+                <ion-icon name="logo-instagram"></ion-icon>
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-link-box">
+
+          
+         
+
+            <div class="container">
+
+              <h1> Contact form    </h1>
+ 
+              
+              <form action="https://formsubmit.co/raumel19@gmail.com" method="POST">
+          
+    
+              <input type="text" name="Name" placeholder="Full Name" required> 
+              
+              <input type="email" name="Email" placeholder="Email" required>
+
+              <br>
+
+              </br>
+              <textarea name="Message" placeholder="Message" required></textarea> 
+              <button type="submit">Send</button>
+                
+            </form>
+
+         
+
+            </div>
+
+        
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2023 <a href="#">teallakeinn</a>. All Rights Reserved
+        </p>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+  
+        </ul>
+    </ul>
+
+        
+
+        
+  </section>
+
+
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
