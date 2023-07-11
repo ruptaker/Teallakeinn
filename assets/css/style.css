@@ -1729,3 +1729,86 @@ color: white;
     font-size: 16px;
   }
 }
+
+
+.location{
+  font-size: 25px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.location-content{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+
+}
+.package-title h2{
+  font-size: 40px;
+  font-weight: 650;
+  padding-top: 75px;
+  padding-bottom: 10px;
+  line-height: 2;
+}
+
+.content{
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(1, 0, 5, 0.3),rgba(4, 1, 17, 0.3));
+}
+
+.location-content{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.col-content{
+  position: relative;
+  filter:brightness(95%);
+  transition: all 0.3s cubic-bezier(0.445,0.05,0.55,0.95);
+
+}
+
+.col-content img{
+  position: relative;
+  margin-bottom: 50px;
+  height: 250px;
+  max-width: fit-content;
+  border-radius: 27px;
+  width: 100%;
+  
+}
+
+.col-content h5{
+  position: absolute;
+  font-size: 25px;
+  color: black;
+  font-weight: 500;
+  left: 20px;
+  bottom: 105px;
+  cursor: pointer;
+}
+
+.col-content p{
+  position: absolute;
+  font-size: 20px;
+  color: black;
+  left: 20px;
+  bottom: 80px;
+  cursor: pointer;
+}
+
+.col-content:hover{
+  filter: brightness(105%);
+  transform: scale(1.05);
+  cursor: pointer;
+}
+
+
+
+
+
