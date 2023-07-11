@@ -1803,8 +1803,8 @@ color: white;
 }
 
 .col-content:hover{
-  filter: brightness(105%);
-  transform: scale(1.05);
+  filter: brightness(110%);
+  transform: scale(1.35);
   cursor: pointer;
 }
 
