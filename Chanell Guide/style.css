@@ -419,7 +419,15 @@
 	font-weight: var(--fw-500);
   }
   
+ul.press {
+  display: table;
+  width: 100%;
+  text-align: center;
+}
 
+ul.press > li {
+  display: table-cell;
+}
 
 * {
 	box-sizing: border-box;
